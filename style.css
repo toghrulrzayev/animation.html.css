@@ -1,0 +1,145 @@
+body{
+    background-color:gray;
+}
+.div1{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+
+@keyframes Example{
+   0%{background-color:blue;  left:0px;top:0px}
+   20%{background-color:blue; left:100px;top:0px}
+   40%{background-color:blue; left:350px;top:0px}
+   60%{background-color:blue; left:450px;top:0px}
+   100%{background-color:blue; left:550px;top:0px}
+}
+
+.div2{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example2;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example2 {
+    0%{background-color:blue; left:0px;top:0px}
+    20%{background-color:blue; left:150px;top:0px}
+    40%{background-color:blue; left:300px;top:50px}
+    60%{background-color:blue; left:500px;top:0px}
+    100%{background-color:blue; left:550px;top:50px}
+}
+.div3{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example3;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example3 {
+    0%{background-color:blue; left:0px ;top:0px}
+    20%{background-color:blue; left:200px;top:0px}
+    40%{background-color:blue; left:300px;top:100px}
+    60%{background-color:blue; left:550px ;top:0px}
+    100%{background-color:blue; left:550px;top:100px}
+ }
+
+.div4{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px; 
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example4;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example4 {
+    0%{background-color:blue; left:0px;top:0px}
+    20%{background-color:blue; left:150px;top:50px}
+    40%{background-color:blue; left:350px;top:150px}
+    60%{background-color:blue; left:500px;top:50px;}
+    100%{background-color:blue; left:600px;top:100px}
+ }
+
+.div5{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example5;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example5 {
+    0%{background-color:blue; left:0px;top:0px}
+    20%{background-color:blue; left:150px;top:100px;}
+    40%{background-color:blue; left:400px;top:50px}
+    60%{background-color:blue; left:500px;top:100px}
+    100%{background-color:blue; left:650px;top:100px}
+ }
+
+.div6{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example6;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example6 {
+    0%{background-color:blue; left:0px;top:0px}
+    20%{background-color:blue; left:0px;top:50px}
+    40%{background-color:blue; left:400px;top:100px}
+    60%{background-color:blue; left:0px;top:0px}
+    100%{background-color:blue; left:650px;top:50px}
+ }
+
+.div7{
+    background-color:red;
+    width:50px;
+    height:50px;
+    margin-top:200px;
+    margin-left:200px;
+    position: absolute;
+    animation-name:Example7;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 12s;
+}
+@keyframes Example7 {
+    0%{background-color:blue; left:0px ;top:0px}
+    20%{background-color:blue; left:0px ;top:0px}
+    40%{background-color:blue; left:0px;top:0px}
+    60%{background-color:blue; left:0px ;top:0px;}
+    100%{background-color:blue; left:650px;top:0px}
+ }
+
+
+
